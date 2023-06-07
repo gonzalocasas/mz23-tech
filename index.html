@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MakeZurich 2023</title>
+    <style>
+        @keyframes spin {
+            0% { transform: rotateX(0deg) rotateY(0deg); opacity: .8; }
+            20% { transform: rotateX(0deg) rotateY(10deg); opacity: 1;}
+            50% { transform: rotateX(0deg) rotateY(0deg); opacity: .8; }
+            70% { transform: rotateX(0deg) rotateY(-15deg); opacity: 1; }
+            100% { transform: rotateX(0deg) rotateY(0deg); opacity: .8;}
+        }
+        #logo {
+          width: 300px;
+        }
+        body {
+            background-color: #090909;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            animation: spin 3s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <img id="logo" src="https://mz23.tech/images/logo.png" alt="Logo"><br/>
+    <script>
+        console.log('V2VsbCBkb25lLCBmZWxsb3cgaGFja2VyISBZb3UndmUgZm9sbG93ZWQgdGhlIHRyYWlsIG9mIGhpbnRzIHRpbGwgY29tcGxldGlvbi4g8J+mhPCfjIg=');
+    </script>
+</body>
+</html>
